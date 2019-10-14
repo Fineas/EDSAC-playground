@@ -1,13 +1,11 @@
 T56K [set load address=56]
 GK
 ZF [breakpoint]
-O16@
-O17@
-O18@
-O19@
-O20@
-O21@
-O22@
+O18@ [ print char at idx ]
+O19@ [ print char at idx ]
+O20@ [ print ... ]
+O21@ [ ... ]
+O22@ [ ... ]
 O23@
 O24@
 O25@
@@ -15,19 +13,25 @@ O26@
 O27@
 O28@
 O29@
-ZF [breakpoint]
-*F
-SF [LETTER S]
-IF [LETTER I]
-LF [LETTER L]
-AF [LETTER A]
-GF [LETTER G]
-HF [LETTER H]
-IF [LETTER I]
-FF [LETTER F]
-IF [LETTER I]
-NF [LETTER N]
-EF [LETTER E]
-AF [LETTER A]
-SF [LETTER S]
+O30@
+O31@
+O32@
+O33@
+ZF [ breakpoint ]
+*F [ set the teletype into 'letter shift' mode ]
+SF [ LETTER S ]
+IF [ LETTER I ]
+LF [ LETTER L ]
+AF [ LETTER A ]
+GF [ LETTER G ]
+HF [ LETTER H ]
+IF [ LETTER I ]
+!F [ space ]
+FF [ LETTER F ]
+IF [ LETTER I ]
+NF [ LETTER N ]
+EF [ LETTER E ]
+AF [ LETTER A ]
+SF [ LETTER S ]
+&F [ new-line ]
 EZPF
