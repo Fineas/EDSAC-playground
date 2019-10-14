@@ -1,0 +1,33 @@
+T56K [set load address=56]
+GK
+ZF [breakpoint]
+O16@
+O17@
+O18@
+O19@
+O20@
+O21@
+O22@
+O23@
+O24@
+O25@
+O26@
+O27@
+O28@
+O29@
+ZF [breakpoint]
+*F
+SF [LETTER S]
+IF [LETTER I]
+LF [LETTER L]
+AF [LETTER A]
+GF [LETTER G]
+HF [LETTER H]
+IF [LETTER I]
+FF [LETTER F]
+IF [LETTER I]
+NF [LETTER N]
+EF [LETTER E]
+AF [LETTER A]
+SF [LETTER S]
+EZPF
