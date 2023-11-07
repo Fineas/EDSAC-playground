@@ -14,5 +14,6 @@ Some basic programs for the EDSAC Simulator
 - [EDSAC Manual](https://www.dcs.warwick.ac.uk/~edsac/Software/EdsacTG.pdf)
 - [EDSAC PY](https://github.com/dwhipple99/edsac/blob/master/edsac.py)
 - [EDSAC Simulator - Computerphile](https://www.youtube.com/watch?v=lXJ-tYqPARg)
-- [EDSAC Inro by University of Cambridge](https://www.cl.cam.ac.uk/events/EDSAC99/simulators/echo/flat.html)
+- [EDSAC Initial Orders - Computerphile](https://youtu.be/nc2q4OOK6K8?si=k09meO_21UJxlfzZ)
+- [EDSAC Intro by University of Cambridge](https://www.cl.cam.ac.uk/events/EDSAC99/simulators/echo/flat.html)
 - [EDSAC Article](http://www.linuxvoice.com/issues/009/olde.pdf)
